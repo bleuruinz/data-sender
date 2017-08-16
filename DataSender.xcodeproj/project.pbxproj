@@ -12,6 +12,13 @@
 		E645BDB11F43C8AC00D2F593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E645BDAF1F43C8AC00D2F593 /* Main.storyboard */; };
 		E645BDB31F43C8AC00D2F593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E645BDB21F43C8AC00D2F593 /* Assets.xcassets */; };
 		E645BDB61F43C8AC00D2F593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E645BDB41F43C8AC00D2F593 /* LaunchScreen.storyboard */; };
+		E645BDBE1F43CA9600D2F593 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDBD1F43CA9600D2F593 /* SecondViewController.swift */; };
+		E645BDC01F43D7B300D2F593 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDBF1F43D7B300D2F593 /* PinkViewController.swift */; };
+		E645BDC21F43D7CD00D2F593 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDC11F43D7CD00D2F593 /* BlueViewController.swift */; };
+		E645BDC41F43DAE400D2F593 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDC31F43DAE400D2F593 /* GreenViewController.swift */; };
+		E645BDC61F43DB0000D2F593 /* SkyblueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDC51F43DB0000D2F593 /* SkyblueViewController.swift */; };
+		E645BDC81F43E4AD00D2F593 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDC71F43E4AD00D2F593 /* PurpleViewController.swift */; };
+		E645BDCA1F43E4BF00D2F593 /* MintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645BDC91F43E4BF00D2F593 /* MintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		E645BDB21F43C8AC00D2F593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E645BDB51F43C8AC00D2F593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E645BDB71F43C8AC00D2F593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E645BDBD1F43CA9600D2F593 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E645BDBF1F43D7B300D2F593 /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		E645BDC11F43D7CD00D2F593 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E645BDC31F43DAE400D2F593 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		E645BDC51F43DB0000D2F593 /* SkyblueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyblueViewController.swift; sourceTree = "<group>"; };
+		E645BDC71F43E4AD00D2F593 /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		E645BDC91F43E4BF00D2F593 /* MintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				E645BDB21F43C8AC00D2F593 /* Assets.xcassets */,
 				E645BDB41F43C8AC00D2F593 /* LaunchScreen.storyboard */,
 				E645BDB71F43C8AC00D2F593 /* Info.plist */,
+				E645BDBD1F43CA9600D2F593 /* SecondViewController.swift */,
+				E645BDBF1F43D7B300D2F593 /* PinkViewController.swift */,
+				E645BDC11F43D7CD00D2F593 /* BlueViewController.swift */,
+				E645BDC31F43DAE400D2F593 /* GreenViewController.swift */,
+				E645BDC51F43DB0000D2F593 /* SkyblueViewController.swift */,
+				E645BDC71F43E4AD00D2F593 /* PurpleViewController.swift */,
+				E645BDC91F43E4BF00D2F593 /* MintViewController.swift */,
 			);
 			path = DataSender;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E645BDC41F43DAE400D2F593 /* GreenViewController.swift in Sources */,
+				E645BDC01F43D7B300D2F593 /* PinkViewController.swift in Sources */,
+				E645BDBE1F43CA9600D2F593 /* SecondViewController.swift in Sources */,
+				E645BDC61F43DB0000D2F593 /* SkyblueViewController.swift in Sources */,
+				E645BDC81F43E4AD00D2F593 /* PurpleViewController.swift in Sources */,
 				E645BDAE1F43C8AC00D2F593 /* ViewController.swift in Sources */,
+				E645BDC21F43D7CD00D2F593 /* BlueViewController.swift in Sources */,
 				E645BDAC1F43C8AC00D2F593 /* AppDelegate.swift in Sources */,
+				E645BDCA1F43E4BF00D2F593 /* MintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
